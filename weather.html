@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <style>
+        body{
+            background-image: url(weather.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+        #box{
+            /* height: 2px; */
+            height: auto;
+
+            width: 40%;
+            margin: auto;
+            border: 2px solid wheat;
+            box-shadow: rgb(44, 41, 41) 0px 5px 15px;
+            margin-top: 10px;
+            border-radius: 20px;
+            
+        }
+        input{
+            height: 30px;
+            width: 200px;
+        }
+        button{
+            width: 80px;
+            height: 25px;
+        }
+        h1{
+            color: beige;
+        }
+
+    </style>
+</head>
+<body>
+
+   <h1>Weather ☁️</h1>
+   <input type="text" id="city" placeholder="city name">
+   <button onclick="search()">Search</button>
+
+  
+
+   <div id="box">
+
+   </div>
+
+    
+</body>
+
+</html>
+
+<script src="weather.js"></script>
+
+
+
+<!-- <div class="main">
+    <div id="wea"><h1>Weather ☁️</h1></div>
+    <div id="sear"> 
+            <input type="search" name="" id="city" placeholder="Enter city Name">
+             <button onclick="Search()">search</button>
+    </div>
+
+ <div id="box" >
+
+ </div>
+</div> -->
